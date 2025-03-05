@@ -1,0 +1,120 @@
+@import url("style.css");
+@media (max-width: 768px) {
+    .fixed {
+        width: 100% !important;
+
+    }
+}
+
+.fixed {
+    width: calc(100vw/4);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-top: 0px !important;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    z-index: 1;
+    float: inline-end;
+    clear: both;
+}
+
+.fixed .header {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    align-items: center;
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.spanMove::before {
+    content: '\f71e';
+    font-family: "Material Symbols Outlined";
+    background-color: red;
+    width: 10%;
+    font-size: 2em;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fixed button {
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: white;
+}
+
+.draggable {
+    cursor: move;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.active,
+.collapsible:hover {
+    background-color:darkblue;
+}
+.collapsible::before{
+    content: '\e887';
+    font-family: "Material Symbols Outlined";
+    width: 10%;
+    font-size: 2em;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    flex-direction: column;
+    float: none;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding-top: 50px !important;
+    padding-left:50px !important;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    float: inline-end;
+    justify-content: center;    /*Alinha elementos horizontalmente. */
+    align-items: center;    /* Alinha elementos verticalmente*/
+
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    z-index: 1;
+    position: absolute;
+}

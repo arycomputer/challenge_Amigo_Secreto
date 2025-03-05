@@ -1,0 +1,477 @@
+:root {
+    --color-primary: #4B69FD;
+    --color-secondary: #FFF9EB;
+    --color-tertiary: #C4C4C4;
+    --color-button: #fe652b;
+    --color-button-hover: #e55720;
+    --color-text: #444444;
+    --color-white: #FFFFFF;
+    --imagemAmigo: url("/assets/amigo-secreto.png");
+    --iconRemove: "\e872";
+    --iconEdit: "\e3c9";
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+    color: var(--color-white);
+}
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #000 !important;
+    border-radius: 25px 0 0 25px;
+    font-size: 16px;
+}
+
+.input-name:focus {
+    outline: none;
+    background-color: antiquewhite;
+}
+
+.invalidy {
+    border: 1px solid;
+    outline: red !important;
+}
+
+#validacao {
+    color: red;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.input-name::placeholder {
+    color: red;
+    font-size: 1.2em;
+    font-style: italic;
+    opacity: 0.5;
+    content: "teste";
+    padding-left: 20px;
+}
+
+.button-container {
+    width: 300px;
+    justify-content: center;
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    /*border: 2px solid #333;*/
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Merriweather", serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos de botão */
+button {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border-radius: calc(100vh/2) !important;
+    border: 2px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+button:hover {
+    /* box-shadow: inset !important;*/
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-text);
+    border-radius: 0 calc(100vh/2) calc(100vh/2) 0 !important;
+    border-left: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-add:hover {
+    background-color: grey;
+    color: white;
+}
+
+:disabled {
+    opacity: 50%;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* name-list*/
+.name-list {
+    width: 30%;
+    font-size: 1.4rem;
+    padding-top: 60px;
+    padding-left: 0;
+    text-align: left;
+}
+
+/* Remove margins and padding from the list */
+#listaAmigos {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Style the list items */
+#listaAmigos li {
+
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    font-size: 1em;
+    transition: 0.2s;
+    border-bottom: 1px solid #444444;
+    color: black;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Style the close button */
+.closeIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: red;
+}
+
+.closeIcon:hover {
+    
+    font-weight: bold;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #05DF05;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botão de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+    display: block;
+    object-fit: scale-down;
+    max-width: 35px;
+}
+
+#txtButton {
+    font-size: 1.3em;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+/* adicionado layout responsive*/
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    /*========================*/
+    .main-title {
+        font-size: 12vw;
+    }
+
+    /*============================*/
+    .header-banner {
+        flex-direction: column;
+    }
+
+    .header-banner img {
+        width: 80%;
+        height: auto;
+    }
+
+    .section-title {
+        font-size: 5.6vw;
+    }
+
+    .button-add {
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* name-list*/
+    .name-list {
+        width: 80%;
+        font-size: 1.4rem;
+        padding-left: 0;
+        text-align: left;
+    }
+
+    .button-container {
+        padding-bottom: 100px;
+    }
+
+    #confirm-dialog {
+        width: 80% !important;
+    }
+
+    .modal {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0px;
+    }
+
+
+    .main-content .column {
+        padding: 0px;
+    }
+
+    .header-banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .main-title {
+        font-size: 12vw;
+    }
+
+    /* name-list*/
+    .name-list {
+        width: 80%;
+        font-size: 1.4rem;
+        padding-left: 0;
+        text-align: left;
+
+    }
+}
+
+.inputName {
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.parent{
+    position: relative;
+    bottom : 20px;
+    left: 0px;
+    width: 10px !important;
+    height: 10px!important;
+    background-color:transparent;
+    z-index: -1;
+}
+.pyro{
+    position: absolute !important;
+    top: 0px;
+    left: 0px;
+}
+
+.callout {
+    position: relative;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 20px;
+    max-width: 300px;
+}
+
+.callout-header {
+    padding: 25px 15px;
+    background: #555;
+    font-size: 30px;
+    color: white;
+}
+
+.callout-container {
+    padding: 15px;
+    background-color: #ccc;
+    color: black
+}
+
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.closebtn:hover {
+    color: lightgrey;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, rgb(255, 255, 255), darkviolet, rgb(255, 255, 255));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.borda-2px {
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+}
+
+.blink {
+    color: rgb(255, 251, 4) !important;
+    font-size: 1.3em !important;
+    display: flex;
+    text-justify: distribute;
+    text-shadow: #000 1px -1px 2px, #000 -1px 1px 2px, #000 1px 1px 2px, #000 -1px -1px 2px;
+    font-family: Bradley Hand, cursive;
+    background-color: #e55720;
+    background: linear-gradient(300deg, rgb(249, 250, 250), darkviolet, rgb(255, 255, 255));
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+}
+
+.invalidity {
+    color: red;
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20px;
+}
+
+.reset {
+    background-color: red;
+}
+
+#spanSorteado {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-left: -80px;
+    padding-right: 20px;
+    font-size: 1.5em;
+}

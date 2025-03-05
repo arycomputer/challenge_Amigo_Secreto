@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/amigo-secreto.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="collaspsible.css">
+    <link rel="stylesheet" href="firework.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=drag_pan" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <title>Amigo Secreto</title>
+</head>
+
+<body>
+    <main class="main-content">
+        <header class="header-banner">
+            <h1 class="main-title">Amigo Secreto</h1>
+            <img src="assets/amigo-secreto.png" alt="Imagem representativa de amigo secreto">
+        </header>
+
+        <section class="input-section">
+            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <div class="input-wrapper"> 
+                <input type="text" id="amigo" class="input-name invalidy" pattern="^[a-zA-Z\s]"
+                    placeholder="Digite um nome" required minlength="2"
+                    maxlength="25">
+                <button id="button-add" class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+            </div>
+            <span class="validity" id="validacao"></span>
+            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
+            <ul id="resultado" class="result-list" aria-live="polite"></ul>
+
+            <div class="button-container">
+                <button class="button-draw sorteio" id="button-draw" onclick="sortearAmigo()"
+                    aria-label="Sortear amigo secreto">
+                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear" id="imgButton">
+                    <span id="txtButton">Sortear amigo</span>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Erro</h4>
+                <button type="button" class="close" data-dismiss="modal"> <!--&times;-->
+                    <span class="btClose"> </span>
+                </button>
+            </div>
+
+            <!-- Modal body -->
+
+            <div class="modal-body" id="modal-body">
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+
+    <dialog id="confirm-dialog" class="">
+        <div class="modal-header">Informação
+            <button type="button" class="close" data-dismiss="modal" id="closeConfirm"> <!--&times;-->
+                <span class="btClose"> </span>
+            </button>
+
+        </div>
+        <form method="dialog" class="dialogConfirm" id="">
+            <p class="modal-title">Deseja excluir?</p>
+            <img src="/assets/amigo-secreto.png" alt="" class="img-confirm">
+            <div class="btn-group">
+                <button value="1">Sim</button>
+                <button value="">Cancelar</button>
+            </div>
+        </form>
+    </dialog>
+
+    <div class="fixed" id="helpDiv">
+        <div class="header collapsible" id="helpDivheader">
+            <button class=" " style="box-shadow: none !important;">Ajuda</button>
+        </div>
+
+        <div class="content" id="contentHelpDiv">
+            <p>Como usar</p>
+            <ol>
+                <li>Digite o nome, tecle <keyboard> ENTER</keyboard>  ou click no botão <code> Adicionar</code> </li>
+                <li>Para sortear precisa de no minimo 2 nomes</li>
+                <li>A lista permite excluir o nome</li>
+                <li>Não é permitido nome duplicado</li>
+            </ol>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <script src="app.js" defer></script>
+    <script src="collapsible.js"></script>
+    <script src="utilitarios.js"></script>
+</body>
+
+</html>
