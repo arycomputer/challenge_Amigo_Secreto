@@ -37,13 +37,6 @@ window.onclick = function (event) {
         span.onclick = function () {
             modalConfirm.style.display = "none";
         }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-
 }
 
 function isLetter(letra) {
