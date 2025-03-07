@@ -177,15 +177,6 @@ function restart() {
     amigo = "";
 }
 
-// Add a "checked" symbol when clicking on a list item
-var list = document.getElementById("listaAmigos");
-list.addEventListener('click', function (ev) {
-    if (ev.target.tagName === 'LI') {
-    }
-    if (ev.target.className === 'closeIcon') {
-    }
-}, false);
-
 function addAmigoListaHtml() {
     var nome = amigo;
     var li = document.createElement("li");
