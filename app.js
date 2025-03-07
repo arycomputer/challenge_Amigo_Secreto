@@ -47,18 +47,17 @@ amigoInput.addEventListener("keyup", ({ key }) => {
 function adicionarAmigo() {
     amigo = amigoInput.value;
     if (validaInput(amigo)) {
-        campoErro.innerHTML = mensagemInputVazio;
+        mostraErro(mensagemInputVazio);
         amigoInput.focus();
         return;
     } else if (existeAmigo(amigo)) {
-        campoErro.innerHTML = "";
-        campoErro.innerHTML = amigo + mensagemNomeExiste;
+        mostraErro(amigo + mensagemNomeExiste);
         amigoInput.select();
     }
     else {
         amigos.push(amigo);
         addAmigoListaHtml();
-        amigoInput.value = ""; //Redefine o campo de texto para uma string vazia.
+        amigoInput.value = "";
 
     }
 }
@@ -73,13 +72,13 @@ function getRandomInt(numeroLimite) {
     return parseInt(Math.random() * numeroLimite + 1);
 }
 
-function fogos(div){
+function fogos(div) {
     const divFire = document.createElement("div");
     divFire.innerHTML = "<div class='parent' id='fogos'>"
-    +"<div class='pyro'>"
-       +" <div class='before'></div>"
-       +" <div class='after'></div>"
-    +"</div></div>";
+        + "<div class='pyro'>"
+        + " <div class='before'></div>"
+        + " <div class='after'></div>"
+        + "</div></div>";
     let theFirstChild = div.firstChild;
     div.insertBefore(divFire, theFirstChild);
 }
@@ -89,13 +88,6 @@ function sortearAmigo() {
         let indiceSorteado = getRandomInt(amigos.length);
         let amigoSorteado = amigos[indiceSorteado];
         document.getElementById(amigoSorteado).classList.add("sorteado");
-       // const span = document.createElement("span");
-      //  fogo(amigoSorteado);
-
-        // sort.innerHTML+=span.innerHTML;
-        // Insert the new element before the first child
-      //  sort.insertBefore(span, theFirstChild);
-
         exibeSorteado(amigoSorteado);
     } else {
         showModal(mensagemListaVazia);
@@ -163,8 +155,6 @@ function alterButton(acao) {
     }
 }
 
-//ETAPA PERSONALIZAÇÃO DO CODIGO
-
 function existeAmigo(amigo) {
     return amigos.includes(amigo);
 }
@@ -177,14 +167,18 @@ function restart() {
     amigo = "";
 }
 
+function mostraErro(mensagem) {
+    document.getElementById("validacao").innerHTML = "";
+    document.getElementById("validacao").innerHTML = mensagem;
+}
+
 function addAmigoListaHtml() {
     var nome = amigo;
     var li = document.createElement("li");
     li.setAttribute("id", nome);
     li.textContent = nome;
     if (nome === '') {
-        document.getElementById("validacao").innerHTML = "";
-        document.getElementById("validacao").innerHTML = mensagemInputVazio;
+        mostraErro(mensagemInputVazio);
     } else {
         document.getElementById("listaAmigos").appendChild(li);
     }
