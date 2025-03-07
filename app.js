@@ -118,11 +118,11 @@ function exibeSorteado(amigoSorteado) {
     alterButton("reset");
 }
 
-let mouseover_function = () => {
+let mouseover_function = (event) => {
     event.target.style.background = '#000080';
 };
 
-let mouseleave_function = () => {
+let mouseleave_function = (event) => {
     event.target.style.background = '#4169e1';
 };
 
