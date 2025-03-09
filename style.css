@@ -128,7 +128,6 @@ body {
     flex: 1;
     padding: 10px 15px;
     font-size: 16px;
-    /*border: 2px solid #333;*/
     border-right: none;
     border-radius: 25px 0 0 25px;
     font-family: "Merriweather", serif;
@@ -196,7 +195,6 @@ ul {
 
 /* Style the list items */
 #listaAmigos li {
-
     position: relative;
     padding: 12px 8px 12px 40px;
     list-style-type: none;
@@ -221,7 +219,6 @@ ul {
 }
 
 .closeIcon:hover {
-    
     font-weight: bold;
 }
 
@@ -320,7 +317,6 @@ ul {
     body {
         padding: 0px;
     }
-
 
     .main-content .column {
         padding: 0px;
