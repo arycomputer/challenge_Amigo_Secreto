@@ -222,9 +222,7 @@ function showModal(mensagem) {
     var modalContent = document.getElementById("modal-body");
     modalContent.innerHTML = "<p>" + mensagem + "</p>";
     var span = document.getElementsByClassName("close")[0];
-
     modal.style.display = "block";
-
     span.onclick = function () {
         modal.style.display = "none";
     }

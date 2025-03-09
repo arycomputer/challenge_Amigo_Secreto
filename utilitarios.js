@@ -33,7 +33,6 @@ window.onclick = function (event) {
         modalConfirm.style.display = "none";
     }
         var span = document.getElementsByClassName("close")[0];
-    
         span.onclick = function () {
             modalConfirm.style.display = "none";
         }
