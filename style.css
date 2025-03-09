@@ -32,6 +32,10 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    /*background:url('assets/dark-blue.jpg') no-repeat ;
+    background-size:cover;
+    background-size: 100%;
+    background-attachment: fixed;*/
 }
 
 /* Banner */
@@ -191,6 +195,7 @@ ul {
 #listaAmigos {
     margin: 0;
     padding: 10px;
+
 }
 
 /* Style the list items */
@@ -262,6 +267,7 @@ ul {
         flex-direction: column;
         width: 100% !important;
         padding: 0px !important;
+
     }
 
     /*========================*/
@@ -360,6 +366,7 @@ ul {
     position: absolute !important;
     top: 0px;
     left: 0px;
+    overflow: hidden;
 }
 
 .callout {
