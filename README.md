@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html lang="en-US" class=" no-touch js_active  vc_desktop  vc_transform  vc_transform ">
+<html lang="pt-BR" class=" no-touch js_active  vc_desktop  vc_transform  vc_transform ">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://github.com/solutionsarray/SolutionsArray/blob/main/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">-->
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css">-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <!--<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">-->
-    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">-->
-    <!--<link rel="stylesheet" href='//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css'>-->
     <meta http-equiv="refresh" content="1">
-    <link rel="stylesheet" href="style.css">
-    <style>
-      .center{
-        background-color: black !important;
-        }
-    </style>
+    <link rel="stylesheet" href="readmecss.css">
   </head>
-  <body style="background-color: black !important;">
+  <body>
     <header>
       <!-- - - - - - - - - - - - - - - - - - - - - - - HTML - START - - - - - - - - - - - - - - - - - - - - - - -->
 <div id="contacts">
@@ -48,7 +38,9 @@
     </h3>
   </div>
 
-
+<div style="width: 100%;">
+  <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
+</div>
 
 
 <br>
