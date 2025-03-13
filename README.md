@@ -1,29 +1,5 @@
-## $$\boxed{\color{red}Desafio Amigo Secreto}$$ 
-
-## $$\textcolor{green}{orange background}$$
-
-# $${\textcolor{red}[abc\]\(https://google.fr)}$$
-```html
-<h1 style="color: red">text</h1>
-
-<font color="red">This text is red!</font>
-
-<p style="color:blue">Make this text blue.</p>
-```
-> :warning: **Warning:** Do not push the big red button.
-
-> :memo: **Note:** Sunrises are beautiful.
-
-> :bulb: **Tip:** Remember to appreciate the little things in life.
-
-#[!#0f0[This is green text]
-
-#7fffff00[This is yellow text at 50% opacity]
-
-## 🔖 $$\textcolor{green}{Sobre}$$
-
-#### A blue heading
-{: .blue}
+# Projeto Challenge Amigo Secreto
+## 🔖 Sobre
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da Alura
 
@@ -69,12 +45,9 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
     ```bash
     cd amigo-secreto
     ```
-
 3. Abra o arquivo `index.html` no seu navegador preferido.
 
 ## Uso
-
-# $$\boxed{\sf\color{red}Screenshots}$$
 
 Here is a simple flow chart:
 
@@ -101,7 +74,6 @@ B --> C{Decision}
 C -->|Válido| D[Result 1]
 C -->|Vazio| E[Result 2]
 ```
-
 
 ```flow
 st=>start: Login
@@ -134,21 +106,12 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
 
-
-
-# $$\boxed{\sf\color{lightblue}Screenshots}$$
-$${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$ :
-
 # list
 - [x] indice
 - [x] indice 
 
-
 #![visitors](https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto&left_color=green&right_color=red)
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto" alt="visitor badge"/>
-
-###FlowChart
-
 
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=arycomputer&hide=B,B%2B&hide_contributor_rank=false&limit=5&order_by=contributions)
