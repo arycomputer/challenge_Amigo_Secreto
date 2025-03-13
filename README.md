@@ -2,7 +2,28 @@
 
 ## $$\textcolor{green}{orange background}$$
 
-## 🔖 Sobre
+# $${\textcolor{red}[abc\]\(https://google.fr)}$$
+```html
+<h1 style="color: red">text</h1>
+
+<font color="red">This text is red!</font>
+
+<p style="color:blue">Make this text blue.</p>
+```
+> :warning: **Warning:** Do not push the big red button.
+
+> :memo: **Note:** Sunrises are beautiful.
+
+> :bulb: **Tip:** Remember to appreciate the little things in life.
+
+#[!#0f0[This is green text]
+
+#7fffff00[This is yellow text at 50% opacity]
+
+## 🔖 $$\textcolor{green}{Sobre}$$
+
+#### A blue heading
+{: .blue}
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da Alura
 
