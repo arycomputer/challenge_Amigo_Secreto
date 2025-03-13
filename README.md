@@ -1,16 +1,17 @@
-# Projeto Challenge Amigo Secreto
+# Projeto Challenge Amigo Secreto <img src="assets/logo-alura.svg" alt="logo Alura"> <img src="assets/gone.webp" alt= "Projeto G One">
 ## 🔖 Sobre
 
-Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da Alura
-<img src="assets/alura.jpg">
+Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da 
+
+
 ## Índice
 
-- [Descrição](#descrição)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+- :point_right: [Descrição](#descrição)
+- :point_right: [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- :point_right: [Instalação](#instalação)
+- :point_right: [Uso](#uso)
+- :point_right: [Contribuição](#contribuição)
+- :point_right: [Licença](#licença)
 
 ## Descrição
 
@@ -24,13 +25,7 @@ O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto d
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
-[![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=iuricode&hide=html&layout=compact&theme=default)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
+[![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=arycomputer&layout=compact&theme=default)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Instalação
 
