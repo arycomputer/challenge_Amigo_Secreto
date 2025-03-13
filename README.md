@@ -8,15 +8,14 @@ Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto u
 
 ## Índice
 
-- [Descrição](/#descrição)
-- [An Internal Link to a Section Heading](/guides/content/editing-an-existing-page#modifying-front-matter)
+- [Descrição](#descrição)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Instalação](#instalação)
 - [Uso](#uso)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
-# Descrição
+## Descrição
 
 O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto de maneira fácil e rápida. Com uma interface amigável, os usuários podem adicionar participantes e realizar o sorteio diretamente no navegador.
 
