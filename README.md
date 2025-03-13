@@ -1,47 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-BR" class=" no-touch js_active  vc_desktop  vc_transform  vc_transform ">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://github.com/solutionsarray/SolutionsArray/blob/main/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <meta http-equiv="refresh" content="1">
-    <link rel="stylesheet" href="readmecss.css">
-  </head>
-  <body>
-    <header>
-      <!-- - - - - - - - - - - - - - - - - - - - - - - HTML - START - - - - - - - - - - - - - - - - - - - - - - -->
-<div id="contacts">
-<h3 class="center">👋 Hi, I'm Pedro Carvalho</h3>
-<p align="center"><img src="https://readme-typing-svg.herokuapp.com?color=0357F7&lines=Self/Employed+Remote+WebDeveloper" alt="herokuapp"></p>
-<!--<p align="center"> <b>💲/hour | 100% 🌐Remote Development</p></b>-->
-<h3 align="center"><!--Email |--><a href=mailto:workrelated055@gmail.com> workrelated055@gmail.com </a></h3>
-<p align="center" style=font-size:20px;>📱 Tel: +351 933 294 116</p>
-      <!--Call me on Skype - Start -->
-<!--<h4 align="center"><a href="skype:live:skype.user.n.1?call">&emsp;<i style=font-size:54px class="fab fa-skype"></i></a></h4>-->
-<p align="center">
-<span>
-        <a href="skype:skype.user.n.1?call">
-          <span style=font-size:20px;>
-          <span style=color:blue;><b>Skype:</b> "live:skype.user.n.1"</span>
-          </span>
-        </a>
-        <!--<p align="center"><span style=font-size:20px;color:#5E555E>If you don't have Skype installed, download it
-        <a href="http://www.skype.com/" target="_blank">
-          <span style=color:#00bf80;>here</span></p>-->
-        </a>
-        </span>
-        </p>
-      <!--Call me on Skype - End -->
-      <hr />
-    </h3>
-  </div>
-
 <div style="width: 100%;">
   <img src="animated.svg" style="width: 100%;" alt="Click to see the source">
 </div>
-
 
 <br>
 <p align="center">
@@ -138,30 +97,9 @@
 <h3 align="center">&emsp;&emsp;&emsp;Secure<a href="https://solutionsarray.com/"><img src="http://mixed.solutionsarray.com/wp-content/uploads/2024/04/security.png" alt="security"></a> &nbsp;Solutions</h3>
 <p align="center"><a href="https://solutionsarray.com/"><img src="http://mixed.solutionsarray.com/wp-content/uploads/2023/10/SolutionsArray1.com_.png" alt="solutionsarray.com"></a></p>
 
-<!--<p align="center">SolutionsArray<a href="https://solutionsarray.com/"></a></p>-->
-
-
-<!--<p><a href="https://solutionsarray.com/"><img src="http://mixed.solutionsarray.com/wp-content/uploads/2024/02/SolutionsArray_Homepage.png"></a></p>-->
-
-
-<h3 align="center"><b>Websites · E-commerce · Applications · Maintenance · Marketing · Hosting · Storage</b></h3>
-
-<br>
-<p>• Websites are Aesthetic/Functional/Maintainable/Reliable</p>
-<p>• Pixel Perfect Design is Professional and Responsive to all Media devices and browsers</p>
-<p>• PSD to CMS design with Custom Animations</p>
-<p>• Payment gateway integrations</p>
-<p>• Fully optimized with speed and On-Page SEO</p>
-<p>• Bug Fix🐞 | Support👨‍🔧 | Training📈</p>
-<!--• Web Application ► <a href="https://solutionsarray.com/"> http://solutionsarray.com </a></p>-->
-
-<!--
-<hr />
 <h3 align="center">EXTRA 🗃️</h3>
--->
+
 <br>
-<!-- Extra Future Content -->
-<!--<p></p>-->
 
 # $$\boxed{\sf\color{lightblue}Screenshots}$$
 $${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$ :
@@ -174,54 +112,13 @@ $${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github
 # <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          display: flex;
-          width: 100%;
-          height: 300px;
-          background-color: black;
-          color: white;
-        }
-      </style>
-
-      <div class="container">
+         <div class="container">
         <h1>Hi there, my name is Nikola 👋</h1>
       </div>
     </div>
   </foreignObject>
 </svg>
 
-
-<svg fill="none" viewBox="0 0 120 120" width="120" height="120" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-@keyframes bounce {
-  0%   { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-  3%   { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-  5%   { transform: scale(1.1,  .9)  translateY(5px)   skew(0deg,  0deg); }
-  12%  { transform: scale(.9,   1.1) translateY(-70px) skew(25deg, 5deg); }
-  13%  { transform: scale(.9,   1.1) translateY(-70px) skew(25deg, 5deg); }
-  20%  { transform: scale(1.05, .95) translateY(0)     skew(0deg,  0deg); }
-  22%  { transform: scale(1,    1)   translateY(-7px)  skew(0deg,  0deg); }
-  27%  { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-  100% { transform: scale(1,    1)   translateY(0)     skew(0deg,  0deg); }
-}
-h1 {
-  width: 120px;
-  line-height: 20px;
-  padding-top: 70px;
-  text-align: center;
-  font: 400 16px/1.5 Helvetica ,Arial ,sans-serif;
-  color: rgb(52, 73, 94);
-  transform-origin: bottom;
-  animation: 4s cubic-bezier(.5, 0, .5, 1.2) 1s infinite bounce;
-}
-      </style>
-      <h1>Hello, world</h1>
-    </div>
-  </foreignObject>
-</svg>
 <h1>Jogo do número secreto</h1>
 <h2>🔖 Sobre</h2>
 <p>Projeto utilizado nos cursos de lógica de programação da Alura.</p>
@@ -343,3 +240,5 @@ Para contribuir com o projeto, siga as etapas abaixo:
 ## 📝 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
