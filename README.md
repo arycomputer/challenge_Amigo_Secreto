@@ -2,7 +2,7 @@
 ## 🔖 Sobre
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da Alura
-
+<img src="assets/alura.jpg">
 ## Índice
 
 - [Descrição](#descrição)
