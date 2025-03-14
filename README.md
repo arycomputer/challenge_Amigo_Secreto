@@ -1,4 +1,6 @@
-# Projeto Challenge Amigo Secreto <center><img align="right" src="assets/logo-alura.svg" alt="logo Alura"> <img align="right" src="assets/gone.webp" alt= "Projeto G One"></center>
+# Projeto Challenge Amigo Secreto
+
+<center><img align="right" src="assets/logo-alura.svg" height="50px" alt="logo Alura"> <img align="right" src="assets/gone.webp" height="50px" alt= "Projeto G One"></center>
 <br>
 
 ## 🔖 Sobre
@@ -102,11 +104,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
 
-# list
-- [x] indice
-- [x] indice 
-
 #![visitors](https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto&left_color=green&right_color=red)
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto" alt="visitor badge"/>
-
