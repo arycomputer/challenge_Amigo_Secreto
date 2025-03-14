@@ -102,8 +102,10 @@ Para contribuir com o projeto, siga as etapas abaixo:
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
+![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.arycomputer&left_text=Visitas)
 
-#![visitors](https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto&left_color=green&right_color=red)
+# ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
+
+# ![visitors](https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto&left_color=green&right_color=red)
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto" alt="visitor badge"/>
