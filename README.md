@@ -1,4 +1,4 @@
-# Projeto Challenge Amigo Secreto <img src="assets/logo-alura.svg" alt="logo Alura"> <img src="assets/gone.webp" alt= "Projeto G One">
+# Projeto Challenge Amigo Secreto <center><img align="right" src="assets/logo-alura.svg" alt="logo Alura"> <img align="right" src="assets/gone.webp" alt= "Projeto G One"></center>
 ## 🔖 Sobre
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da 
@@ -110,4 +110,3 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto" alt="visitor badge"/>
 
-![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=arycomputer&hide=B,B%2B&hide_contributor_rank=false&limit=5&order_by=contributions)
