@@ -1,15 +1,16 @@
-# Projeto Challenge Amigo Secreto
-<div width=50% align=right>
-<img align="right" src="assets/logo-alura.svg" height="50px" alt="logo Alura"> <img align="right" src="assets/oneOracle.svg" height="50px" alt= "Projeto G One">
-</div>
-<br>
+# Projeto Challenge Amigo Secreto 
 
 ## 🔖 Sobre
 
-Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da 
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arycomputer&repo=challenge_Amigo_Secreto)](https://github.com/anuraghazra/github-readme-stats)
-
+Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da
+<center>
+<div width="100%">
+<img align="left" src="assets/oneOracle.svg" height="50px" alt= "Projeto G One">
+<img align="left" src="assets/logo-alura.svg" height="50px" alt="logo Alura">
+<img align="left" src="assets/amigo_secreto.svg" height="150px" alt="logo Alura">  
+</div>
+  </center>
+</br>
 ## :mag: Índice
 
 :point_right: [Descrição](#descrição)  
@@ -106,6 +107,9 @@ Para contribuir com o projeto, siga as etapas abaixo:
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ![](https://api.visitorbadge.io/api/VisitorHit?user=arycomputer&repo=challenge_Amigo_Secreto&countColor=%237B1E7A)
+
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arycomputer&repo=challenge_Amigo_Secreto)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
