@@ -1,4 +1,6 @@
 # Projeto Challenge Amigo Secreto <center><img align="right" src="assets/logo-alura.svg" alt="logo Alura"> <img align="right" src="assets/gone.webp" alt= "Projeto G One"></center>
+<br>
+
 ## 🔖 Sobre
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da 
@@ -25,8 +27,6 @@ O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto d
   <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
-
-[![iuricode](https://github-readme-stats.vercel.app/api/top-langs/?username=arycomputer&layout=compact&theme=default)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Instalação
 
