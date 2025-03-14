@@ -3,6 +3,9 @@
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da 
 
+/repos/{owner}/{repo}/languages
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arycomputer&repo=challenge_Amigo_Secreto)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Índice
 
