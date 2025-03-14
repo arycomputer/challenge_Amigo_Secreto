@@ -3,8 +3,6 @@
 <center><img align="right" src="assets/logo-alura.svg" height="50px" alt="logo Alura"> <img align="right" src="assets/gone.webp" height="50px" alt= "Projeto G One"></center>
 <br>
 
-![](https://api.visitorbadge.io/api/VisitorHit?user=aeycomputer&repo=challenge_Amigo_Secreto&countColor=%237B1E7A)
-
 ## 🔖 Sobre
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da 
@@ -30,7 +28,7 @@ O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto d
 
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white&color=orange">
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=#8e60b4">
+  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=8e60b4">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
@@ -106,10 +104,8 @@ Para contribuir com o projeto, siga as etapas abaixo:
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.arycomputer&left_text=Visitas)
-
-# ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=arycomputer.visitor-badge&left_color=red&right_color=green&left_text=Hello%20Visitors)
-
-# ![visitors](https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto&left_color=green&right_color=red)
 
 <img src="https://visitor-badge.glitch.me/badge?page_id=arycomputer.challenge_Amigo_Secreto" alt="visitor badge"/>
+![](https://api.visitorbadge.io/api/VisitorHit?user=arycomputer&repo=challenge_Amigo_Secreto&countColor=%237B1E7A)
+
+
