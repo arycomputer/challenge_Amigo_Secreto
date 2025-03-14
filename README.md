@@ -9,12 +9,12 @@ Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto u
 
 ## Índice
 
-- :point_right: [Descrição](#descrição)
-- :point_right: [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- :point_right: [Instalação](#instalação)
-- :point_right: [Uso](#uso)
-- :point_right: [Contribuição](#contribuição)
-- :point_right: [Licença](#licença)
+:point_right: [Descrição](#descrição)  
+:point_right: [Tecnologias Utilizadas](#tecnologias-utilizadas)  
+:point_right: [Instalação](#instalação)  
+:point_right: [Uso](#uso)  
+:point_right: [Contribuição](#contribuição)  
+:point_right: [Licença](#licença)  
 
 ## Descrição
 
