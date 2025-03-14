@@ -1,6 +1,7 @@
 # Projeto Challenge Amigo Secreto
-
-<img align="right" src="assets/logo-alura.svg" height="50px" alt="logo Alura"> <img align="right" src="assets/gone.webp" height="50px" alt= "Projeto G One">
+<div width=50% align=right>
+<img align="right" src="assets/logo-alura.svg" height="50px" alt="logo Alura"> <img align="right" src="assets/oneOracle.svg" height="50px" alt= "Projeto G One">
+</div>
 <br>
 
 ## 🔖 Sobre
