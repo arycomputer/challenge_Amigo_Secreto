@@ -11,7 +11,7 @@ Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto u
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arycomputer&repo=challenge_Amigo_Secreto)](https://github.com/anuraghazra/github-readme-stats)
 
-## Índice
+## :mag: Índice
 
 :point_right: [Descrição](#descrição)  
 :point_right: [Tecnologias Utilizadas](#tecnologias-utilizadas)  
@@ -20,7 +20,7 @@ Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto u
 :point_right: [Contribuição](#contribuição)  
 :point_right: [Licença](#licença)  
 
-## Descrição
+## :pencil: Descrição
 
 O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto de maneira fácil e rápida. Com uma interface amigável, os usuários podem adicionar participantes e realizar o sorteio diretamente no navegador.
 
@@ -29,12 +29,12 @@ O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto d
 [![discord](https://custom-icon-badges.demolab.com/discord/819650821314052106?color=7289DA&logo=comments&label=Alura&logoColor=white)](https://discord.gg/fPrdqh3Zfu "Dev Pro Tips Discussion & Support Server")
 
 <div>
-  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white&color=orange">
+  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white&color=#8e60b4">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 </div>
 
-## Instalação
+## :hammer: Instalação
 
 Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 
@@ -49,7 +49,7 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
     ```
 3. Abra o arquivo `index.html` no seu navegador preferido.
 
-## Uso
+## :gift: Uso
 
 Here is a simple flow chart:
 
@@ -92,7 +92,7 @@ cond(no)->op
 3. Após adicionar todos os participantes, clique no botão "Sortear Amigo" para realizar o sorteio.
 4. O resultado do sorteio será exibido na tela.
 
-## Contribuição
+## :heavy_plus_sign: Contribuição
 
 Para contribuir com o projeto, siga as etapas abaixo:
 
@@ -102,7 +102,7 @@ Para contribuir com o projeto, siga as etapas abaixo:
 4. Faça um push para a branch (`git push origin feature/nome-da-feature`).
 5. Abra um Pull Request.
 
-## 📝 Licença
+## :newspaper: Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
