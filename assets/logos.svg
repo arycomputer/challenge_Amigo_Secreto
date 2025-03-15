@@ -14,7 +14,10 @@
         }
       </style>
       <div class="container">
-      <img src="https://github.com/arycomputer/challenge_Amigo_Secreto/blob/4c3805457758d7b372baccbdaf3c890cd09af026/assets/logo-alura.svg">
+          <image x="200" y="200" width="100px" height="100px"
+         href="amigo-secreto.png">
+    <title>My image</title>
+  </image>
       </div>
     </div>
   </foreignObject>
