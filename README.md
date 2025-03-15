@@ -4,11 +4,9 @@
 
 Um projeto simples de Amigo Secreto utilizando HTML, CSS e JavaScript, Projeto utilizado nos cursos de lógica de programação da
 <center>
-<div width="100%">
-<img align="left" src="assets/oneOracle.svg" height="50px" alt= "Projeto G One">
-<img align="left" src="assets/logo-alura.svg" height="50px" alt="logo Alura">
-<img align="left" src="assets/amigo_secreto.svg" height="150px" alt="logo Alura">  
-</div>
+<img align="left" src="assets/oneOracle.svg" height="80px" alt= "Projeto G One">
+<img align="left" src="assets/logo-alura.svg" height="80px" alt="logo Alura">
+<img align="left" src="assets/amigo_secreto.svg" height="80px" alt="logo Alura">  
   </center>
 </br>
 ## :mag: Índice
