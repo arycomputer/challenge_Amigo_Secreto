@@ -40,8 +40,8 @@
         }
       </style>
       <div class="container">
-        <img align="left" src="../oneOracle.svg" height="80px" alt= "Projeto G One">
-        <h1>Hi there, my name is Nikola <div class="hi">👋</div></h1>
+      <img align="left" src="oneOracle.svg" height="80px" alt= "Projeto G One">
+      <h1>Hi there, my name is Nikola <div class="hi">👋</div></h1>
       </div>
     </div>
   </foreignObject>
