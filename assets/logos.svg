@@ -24,7 +24,7 @@
      xmlns="http://www.w3.org/2000/svg">
   <desc>This graphic links to an external image
   </desc>
-  <image x="200" y="200" width="100px" height="100px" href="amigo-secreto.png"alt="teste">
+  <image x="200" y="200" width="100px" height="100px" href="amigo-secreto.png">
     <title>My image</title>
   </image>
 </svg>
