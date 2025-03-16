@@ -74,32 +74,6 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 - Se nenhum nome for inserido, um **alerta** será exibido informando que é necessário adicionar pelo menos um participante.
 - Nomes duplicados não são permitidos.
 
-Diagrama de Utilização:
-
-```mermaid
-stateDiagram-v2
-state if_state <<choice>>
-    [Inicio] --> IsPositive
-    IsPositive --> if_state
-    if_state --> False: if n < 0
-    if_state --> True : if n >= 0
-    [Inicio] --> Still
-    Still --> [Inicio]
-%% this is a comment
-    Still --> Moving
-    Moving --> Still %% another comment
-    Moving --> Crash
-    Crash --> Inicio
-```
-```mermaid
-flowchart LR
-
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|Válido| D[Result 1]
-C -->|Vazio| E[Result 2]
-```
-
 1. Adicione o nome do participante no campo de entrada.
 2. Clique no botão "Adicionar" para incluir cada nome na lista.
 3. Após adicionar todos os participantes, clique no botão "Sortear Amigo" para realizar o sorteio.
