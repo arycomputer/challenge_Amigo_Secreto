@@ -1,14 +1,16 @@
-# Projeto Challenge Amigo Secreto 🎁
+# Projeto Challenge Amigo Secreto 🎁 <!--<img align="rigth" src="assets/amigo_secreto.svg" height="100px" alt="logo Alura">  -->
 
 ## 🔖 Sobre
 
 Um projeto simples de **Sorteio de Amigo Secreto** utilizando HTML, CSS e JavaScript, um projeto desenvolvido como parte do desafio de lógica do curso **Desenvolvimento Pessoal G8 - ONE**.
-<center>
-<img align="left" src="assets/oneOracle.svg" height="80px" alt= "Projeto G One">
-<img align="left" src="assets/logo-alura.svg" height="80px" alt="logo Alura">
-<img align="left" src="assets/amigo_secreto.svg" height="80px" alt="logo Alura">  
-  </center>
-</br>
+
+<div width="100%">
+<img align="left" src="assets/oneOracle.svg" height="60px" alt= "Projeto G One">
+<img align="rigth" src="assets/logo-alura.svg" height="60px" alt="logo Alura">
+</div>
+
+</br>  
+
 ## :mag: Índice
 
 :point_right: [Descrição](#descrição)  
@@ -23,8 +25,8 @@ Um projeto simples de **Sorteio de Amigo Secreto** utilizando HTML, CSS e JavaSc
 O projeto Amigo Secreto permite a organização de um sorteio de amigo secreto de maneira fácil e rápida. Com uma interface amigável, os usuários podem adicionar participantes e realizar o sorteio diretamente no navegador.
 
 ## 🚀 **Tecnologias Utilizadas**
-
-[![discord](https://custom-icon-badges.demolab.com/discord/819650821314052106?color=7289DA&logo=comments&label=Alura&logoColor=white)](https://discord.gg/fPrdqh3Zfu "Dev Pro Tips Discussion & Support Server")
+<!--
+[![discord](https://custom-icon-badges.demolab.com/discord/819650821314052106?color=7289DA&logo=comments&label=Alura&logoColor=white)](https://discord.gg/fPrdqh3Zfu "Dev Pro Tips Discussion & Support Server")-->
 
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white&color=orange">
@@ -53,8 +55,8 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 
 ## ✨ Funcionalidades
 
-- 📋 **Adição de amigos**: Insira os nomes dos participantes facilmente.
-- 🎲 **Sorteio de um amigo aleatório**: O sistema seleciona um único amigo da lista de forma justa.
+- 📋 **Adição de amigos**: Insira os nomes dos participantes.
+- 🎲 **Sorteio de um amigo**: O sistema seleciona um único amigo da lista de forma aleatória.
 - 🔎 **Interface simples e intuitiva**: Uma experiência fácil e rápida para o usuário.
 - ⚠️ **Validação de entrada**: Exibe mensagens de erro caso um nome esteja em branco ou já tenha sido inserido.
 
