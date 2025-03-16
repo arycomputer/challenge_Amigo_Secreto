@@ -40,7 +40,7 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/usuario/amigo-secreto.git
+    git clone https://github.com/arycomputer/challenge_Amigo_Secreto
     ```
 
 2. Navegue até o diretório do projeto:
@@ -51,7 +51,7 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 
 ## :gift: Uso
 
-🔗 **Acesse o site**: [Clique aqui para testar](https://challenge-amigo-secreto-theta-self.vercel.app/)
+🔗 **Acesse o site**: [Clique aqui para testar](https://arycomputer.github.io/challenge_Amigo_Secreto/)
 
 ## ✨ Funcionalidades
 
