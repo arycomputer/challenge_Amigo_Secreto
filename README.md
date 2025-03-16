@@ -62,22 +62,18 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 
 ## 📌 Como Usar
 
-### 1️⃣ Adicione os amigos 👥
+### 1 Adicione os amigos 👥
 - Digite o nome de cada participante no campo de entrada e clique em **"Adicionar"**.
 - A lista será atualizada automaticamente conforme os nomes forem incluídos.
 
-### 2️⃣ Sorteie um amigo 🎲
+### 2 Sorteie um amigo 🎲
 - Após adicionar os participantes, clique no botão **"Sortear amigo"**.
 - O sistema selecionará **apenas um nome aleatório** da lista e exibirá o resultado na tela.
 
-### 3️⃣ Erros e validações ⚠️
+### 3 Erros e validações ⚠️
 - Se nenhum nome for inserido, um **alerta** será exibido informando que é necessário adicionar pelo menos um participante.
 - Nomes duplicados não são permitidos.
 
-1. Adicione o nome do participante no campo de entrada.
-2. Clique no botão "Adicionar" para incluir cada nome na lista.
-3. Após adicionar todos os participantes, clique no botão "Sortear Amigo" para realizar o sorteio.
-4. O resultado do sorteio será exibido na tela.
 
 ## 🎯 Exemplo Visual
 
