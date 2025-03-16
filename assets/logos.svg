@@ -1,0 +1,29 @@
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+          <image href= "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" height="200" width="200"/>
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background-color: transparent;
+          width: 100%;
+          height: 300px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+      </style> 
+      <div class="container">
+          <image x="200" y="200" width="100px" height="100px" href="https://www.alura.com.br/assets/img/home/alura-logo.1730889067.svg">
+    <title>My image</title>
+  </image>
+      </div>
+    </div>
+
+      <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">       
+        <image href= "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190710102234/download3.png" height="200" width="200"/>
+  </svg>  
+  </foreignObject>
+</svg>
