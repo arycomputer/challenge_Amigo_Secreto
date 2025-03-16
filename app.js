@@ -204,7 +204,20 @@ document.body.addEventListener('click', function (evt) {
     if (evt.target.className === 'closeIcon') {
         evt.preventDefault();
         confirmDialog.showModal();
+/*
+        confirmDialog.addEventListener('click', () => {
+            window.onclick = function (event) {
+                if (event.target == confirmDialog) {
+                    confirmDialog.style.display = "none";
+                    confirmDialog.returnValue = null;
+                    confirmDialog.close();
+                }
+            }
+
+        })
+        */
         confirmDialog.addEventListener('close', () => {
+
             if (confirmDialog.returnValue) {
                 var div = evt.target.parentElement;
                 div.style.display = "none";
@@ -233,27 +246,3 @@ function showModal(mensagem) {
         }
     }
 }
-
-window.onscroll = function () { myFunction() };
-
-//var header = document.getElementById("header");
-var header = document.querySelector("header");
-var sticky = header.offsetTop;
-
-function myFunction() {
-    if (window.pageYOffset > sticky) {
-        header.classList.add("sticky");
-    } else {
-        header.classList.remove("sticky");
-    }
-}
-
-
-
-
-
-
-
-
-
-
