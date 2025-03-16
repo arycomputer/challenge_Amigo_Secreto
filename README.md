@@ -74,22 +74,22 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 - Se nenhum nome for inserido, um **alerta** será exibido informando que é necessário adicionar pelo menos um participante.
 - Nomes duplicados não são permitidos.
 
-Here is a simple flow chart:
+Diagrama de Utilização:
 
 ```mermaid
 stateDiagram-v2
 state if_state <<choice>>
-    [*] --> IsPositive
+    [Inicio] --> IsPositive
     IsPositive --> if_state
     if_state --> False: if n < 0
     if_state --> True : if n >= 0
-    [*] --> Still
-    Still --> [*]
+    [Inicio] --> Still
+    Still --> [Inicio]
 %% this is a comment
     Still --> Moving
     Moving --> Still %% another comment
     Moving --> Crash
-    Crash --> [*]
+    Crash --> Inicio
 ```
 ```mermaid
 flowchart LR
@@ -100,21 +100,10 @@ C -->|Válido| D[Result 1]
 C -->|Vazio| E[Result 2]
 ```
 
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
 1. Adicione o nome do participante no campo de entrada.
 2. Clique no botão "Adicionar" para incluir cada nome na lista.
 3. Após adicionar todos os participantes, clique no botão "Sortear Amigo" para realizar o sorteio.
 4. O resultado do sorteio será exibido na tela.
-
 
 ## 🎯 Exemplo Visual
 
@@ -143,16 +132,10 @@ Para contribuir com o projeto, siga as etapas abaixo:
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-
+---
 📌 **Desenvolvedor:** Ary Augusto
 
 ✉️ **Contato:** [arycomputeraugusto@gmail.com](mailto:arycomputeraugusto@gmail.com)
 
 ![](https://api.visitorbadge.io/api/VisitorHit?user=arycomputer&repo=challenge_Amigo_Secreto&countColor=%237B1E7A)
-
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=arycomputer&repo=challenge_Amigo_Secreto)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
 
