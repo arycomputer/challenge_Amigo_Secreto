@@ -230,7 +230,7 @@ document.body.addEventListener('click', function (evt) {
     }
 }, false)
 
-function sorteioDuplo{
+function sorteioDuplo(){
     let clone = Array.from(amigos);
     amigos.forEach(amigo => {
         let sorteado = clone[getRandomInt(clone.length-1)];
