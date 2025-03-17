@@ -270,21 +270,24 @@ ul {
 
     /*========================*/
     .main-title {
-        font-size: 12vw;
+        font-size: 10vw !important;
     }
 
     /*============================*/
     .header-banner {
         flex-direction: column;
+        padding: 0 !important;
+        margin-top: 0;
+        flex: 20% !important;
     }
 
     .header-banner img {
-        width: 50%;
+        width: 60% !important;
         height: auto;
     }
 
     .section-title {
-        font-size: 5.6vw;
+        font-size: 5.6vw !important;
     }
 
     .button-add {
