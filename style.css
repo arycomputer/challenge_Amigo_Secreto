@@ -372,6 +372,7 @@ ul {
     position: absolute !important;
     top: 0px;
     left: 0px;
+    padding: 20px;
 }
 
 .callout {

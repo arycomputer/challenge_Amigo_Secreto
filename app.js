@@ -230,6 +230,21 @@ document.body.addEventListener('click', function (evt) {
     }
 }, false)
 
+function sorteioDuplo{
+    let clone = Array.from(amigos);
+    amigos.forEach(amigo => {
+        let sorteado = clone[getRandomInt(clone.length-1)];
+            if(amigo==sorteado){
+                sorteado = amigos[getRandomInt(clone.length-1)];
+            }else{
+                const indexSorteado = (element) => element === sorteado;
+              //  const result = clone.find(({ name }) => name === sorteado);
+                clone.splice(indexSorteado);
+                alert(amigo+" tirou "+sorteado);
+            }
+        });
+}
+
 function showModal(mensagem) {
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("modal-body");
