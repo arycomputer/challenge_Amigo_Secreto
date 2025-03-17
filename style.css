@@ -286,6 +286,16 @@ ul {
 
     .section-title {
         font-size: 5.6vw !important;
+        margin-top: 20px !important;
+    }
+
+    .input-section {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .input-wrapper {
+        margin-top: 10px !important;
     }
 
     .button-add {
@@ -305,7 +315,8 @@ ul {
         text-align: left;
     }
 
-    #validacao, .validity{
+    #validacao,
+    .validity {
         font-size: 0.8em !important;
     }
 
