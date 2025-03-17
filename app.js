@@ -228,8 +228,8 @@ document.body.addEventListener('click', function (evt) {
             }
         }, { once: true })
     }
-}, false)
-
+}, false);
+/*
 function sorteioDuplo(){
     let clone = Array.from(amigos);
     amigos.forEach(amigo => {
@@ -240,11 +240,11 @@ function sorteioDuplo(){
                 const indexSorteado = (element) => element === sorteado;
               //  const result = clone.find(({ name }) => name === sorteado);
                 clone.splice(indexSorteado);
-                alert(amigo+" tirou "+sorteado);
+                alert(amigo +" tirou "+sorteado);
             }
         });
 }
-
+*/
 function showModal(mensagem) {
     var modal = document.getElementById("myModal");
     var modalContent = document.getElementById("modal-body");
