@@ -1,33 +1,3 @@
-function showModal(mensagem) {
-    var modal = document.getElementById("myModal");
-    var modalContent = document.getElementById("modal-body");
-    modalContent.innerHTML = "<p>" + mensagem + "</p>";
-    var span = document.getElementsByClassName("close")[0];
-    modal.style.display = "block";
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-}
-
-var modalConfirm = document.getElementById('confirm-dialog');
-var closeConfirm = document.getElementById('closeConfirm');
-
-closeConfirm.addEventListener("click", function () {
-    modalConfirm.close();
-});
-modalConfirm.addEventListener("click", function (event) {
-
-    if (event.target.id == 'confirm-dialog') {
-        modalConfirm.close();
-    }
-});
-
 function isLetter(letra) {
     return /^[A-Za-zÀ-ú\s]+$/.test(letra);
 }
