@@ -204,18 +204,7 @@ document.body.addEventListener('click', function (evt) {
     if (evt.target.className === 'closeIcon') {
         evt.preventDefault();
         confirmDialog.showModal();
-/*
-        confirmDialog.addEventListener('click', () => {
-            window.onclick = function (event) {
-                if (event.target == confirmDialog) {
-                    confirmDialog.style.display = "none";
-                    confirmDialog.returnValue = null;
-                    confirmDialog.close();
-                }
-            }
 
-        })
-        */
         confirmDialog.addEventListener('close', () => {
 
             if (confirmDialog.returnValue) {

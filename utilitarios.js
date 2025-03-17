@@ -34,19 +34,6 @@ modalConfirm.addEventListener("click", function (event) {
     }
 });
 
-/*
-window.onclick = function (event) {
-    
-    if (event.target == confirmDialog) {
-        alert(event.target);
-        confirmDialog.style.display = "none";
-    }
-        var span = document.getElementsByClassName("close")[0];
-        span.onclick = function () {
-            modalConfirm.style.display = "none";
-        }
-}
-*/
 function isLetter(letra) {
     return /^[A-Za-zÀ-ú\s]+$/.test(letra);
 }
@@ -68,16 +55,4 @@ function capitalize(texto) {
         }
     });
     return strTratada.join(" ");
-}
-
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        // document.getElementById("header").style.fontSize = "30px";
-        // document.getElementById("header").style.backgroundColor = "green";
-        document.getElementById("img-header").classList.add("sticky");
-    } else {
-        document.getElementById("header").style.fontSize = "90px";
-    }
 }
