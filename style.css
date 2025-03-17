@@ -279,7 +279,7 @@ ul {
     }
 
     .header-banner img {
-        width: 80%;
+        width: 50%;
         height: auto;
     }
 
@@ -360,13 +360,6 @@ ul {
     background-color: transparent;
     z-index: -1;
 
-}
-
-.pyro {
-    position: absolute !important;
-    top: 0px;
-    left: 0px;
-    padding: 20px;
 }
 
 .callout {

@@ -58,7 +58,6 @@ function adicionarAmigo() {
         amigos.push(amigo);
         addAmigoListaHtml();
         amigoInput.value = "";
-
     }
 }
 
@@ -70,17 +69,6 @@ function validaListaAmigos() {
 //Gerar um índice aleatório 
 function getRandomInt(numeroLimite) {
     return parseInt(Math.random() * numeroLimite + 1);
-}
-
-function fogos(div) {
-    const divFire = document.createElement("div");
-    divFire.innerHTML = "<div class='parent' id='fogos'>"
-        + "<div class='pyro'>"
-        + " <div class='before'></div>"
-        + " <div class='after'></div>"
-        + "</div></div>";
-    let theFirstChild = div.firstChild;
-    div.insertBefore(divFire, theFirstChild);
 }
 
 function sortearAmigo() {
@@ -100,7 +88,6 @@ function exibeSorteado(amigoSorteado) {
     sort.classList.add("blink");
     var span = document.createElement("span");
     span.innerHTML = "<i class='em em-tada' id='spanSorteado' aria-role='presentation' aria-label='PARTY POPPER'></i>";
-    //fogos(span);
     let theFirstChild = sort.firstChild;
     sort.insertBefore(span, theFirstChild);
     document.getElementById("resultado").innerHTML = "";
@@ -119,12 +106,10 @@ let mouseleave_function = (event) => {
 };
 
 function removeClose() {
-    const iconesClose = document.getElementsByClassName('closeIcon');
     amigos.forEach(element => {
         const item = document.getElementById(element);
         item.removeEventListener('mouseover', mouseover_function, false);
         item.removeEventListener('mouseleave', mouseleave_function, false);
-        const child = item.lastChild;
         if (item.hasChildNodes()) {
             item.removeChild(item.children[0]);
         }
