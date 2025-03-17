@@ -4,14 +4,14 @@ const amigoInput = document.getElementById("amigo");
 const campoErro = document.getElementById("validacao");
 const listaAmigos = document.getElementById("listaAmigos");
 const resultadoLista = document.getElementById("resultado");
-const mensagemListaVazia = "Lista minima <br> Insira no minimo dois amigos";
-const mensagemInputVazio = "Preencha o campo nome";
+const mensagemListaVazia = "Lista minima \n Insira no minimo 3(três) amigos";
+const mensagemInputVazio = "Preencha o campo nome com no minimo duas letras";
 const mensagemNomeExiste = ` existe na lista. Altere o nome.`;
 
-amigoInput.setCustomValidity('Preencha este campo corretamente');
+amigoInput.setCustomValidity('Preencha este campo corretamente.');
 
 function validaInput(inputValue) {
-    return !inputValue;
+    return inputValue.length < 2;
 }
 
 amigoInput.addEventListener("focusout", (e) => {
@@ -65,7 +65,7 @@ function adicionarAmigo() {
 //ETAPA SORTEIO DO NOME
 
 function validaListaAmigos() {
-    return amigos.length >= 2;
+    return amigos.length > 2;
 }
 //Gerar um índice aleatório 
 function getRandomInt(numeroLimite) {
@@ -90,7 +90,7 @@ function sortearAmigo() {
         document.getElementById(amigoSorteado).classList.add("sorteado");
         exibeSorteado(amigoSorteado);
     } else {
-        showModal(mensagemListaVazia);
+        alert(mensagemListaVazia);
     }
 }
 
@@ -100,7 +100,7 @@ function exibeSorteado(amigoSorteado) {
     sort.classList.add("blink");
     var span = document.createElement("span");
     span.innerHTML = "<i class='em em-tada' id='spanSorteado' aria-role='presentation' aria-label='PARTY POPPER'></i>";
-    fogos(span);
+    //fogos(span);
     let theFirstChild = sort.firstChild;
     sort.insertBefore(span, theFirstChild);
     document.getElementById("resultado").innerHTML = "";
@@ -190,10 +190,6 @@ function addAmigoListaHtml() {
     li.appendChild(span);
 }
 
-const confirmDialog = document.getElementById('confirm-dialog');
-const deleteBtns = [...document.querySelectorAll('.btnDelete')];
-const deleteIcons = [...document.querySelectorAll('.closeIcon')];
-
 function removeFromList(item) {
     const filter = (element) => element == item;
     const indexToRemove = amigos.findIndex(filter);
@@ -203,50 +199,14 @@ function removeFromList(item) {
 document.body.addEventListener('click', function (evt) {
     if (evt.target.className === 'closeIcon') {
         evt.preventDefault();
-        confirmDialog.showModal();
 
-        confirmDialog.addEventListener('close', () => {
-
-            if (confirmDialog.returnValue) {
-                var div = evt.target.parentElement;
-                div.style.display = "none";
-                var amigoList = evt.target.parentElement.id;
-                removeFromList(amigoList);
-            } else {
-                console.log('Do nothing')
-            }
-        }, { once: true })
+        if (window.confirm("Deseja excluir o amigo?")) {
+            var div = evt.target.parentElement;
+            div.style.display = "none";
+            var amigoList = evt.target.parentElement.id;
+            removeFromList(amigoList);
+        } else {
+           console.log = "Nenhuma alteração";
+          }
     }
 }, false);
-/*
-function sorteioDuplo(){
-    let clone = Array.from(amigos);
-    amigos.forEach(amigo => {
-        let sorteado = clone[getRandomInt(clone.length-1)];
-            if(amigo==sorteado){
-                sorteado = amigos[getRandomInt(clone.length-1)];
-            }else{
-                const indexSorteado = (element) => element === sorteado;
-              //  const result = clone.find(({ name }) => name === sorteado);
-                clone.splice(indexSorteado);
-                alert(amigo +" tirou "+sorteado);
-            }
-        });
-}
-*/
-function showModal(mensagem) {
-    var modal = document.getElementById("myModal");
-    var modalContent = document.getElementById("modal-body");
-    modalContent.innerHTML = "<p>" + mensagem + "</p>";
-    var span = document.getElementsByClassName("close")[0];
-    modal.style.display = "block";
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-}
