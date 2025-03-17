@@ -87,7 +87,7 @@ function exibeSorteado(amigoSorteado) {
     removeClose();
     sort.classList.add("blink");
     var span = document.createElement("span");
-    span.innerHTML = "<i class='em em-tada' id='spanSorteado' aria-role='presentation' aria-label='PARTY POPPER'></i>";
+    span.innerHTML = "<i class='em em-tada' id='spanSorteado' aria-role='presentation' aria-label='nomeSorteado'></i>";
     let theFirstChild = sort.firstChild;
     sort.insertBefore(span, theFirstChild);
     document.getElementById("resultado").innerHTML = "";
