@@ -87,7 +87,7 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 ![image](
 https://github.com/user-attachments/assets/98acbd55-3d61-4b8d-9a2f-38b2f0f7ee38
 10ea1ffc-e1e0-4a8a-b7ff-5d56155367a4)
-
+![](https://github.com/user-attachments/challenge.mp4)
 ## :heavy_plus_sign: Contribuição
 
 Para contribuir com o projeto, siga as etapas abaixo:
