@@ -51,7 +51,10 @@ Para visualizar e utilizar o projeto localmente, siga os passos abaixo:
 
 ## :gift: Uso
 
-🔗 **Acesse o site**: [Clique aqui para testar](https://arycomputer.github.io/challenge_Amigo_Secreto/)
+🔗 **Acesse o site**:   
+[Github](https://arycomputer.github.io/challenge_Amigo_Secreto/)
+
+[Vercel](https://challenge-amigo-secreto-delta-navy.vercel.app/)
 
 ## ✨ Funcionalidades
 
